@@ -12,7 +12,7 @@ def solution(p: float, x: np.array) -> tuple:
     # Не меняйте название функции и её аргументы
     alpha = 1 - p
     n = len(x)
-    left = (-min(-x) - 1 / 2) / (65**2 / 2)
+    left = (-min(-x) - 1 / 2) / (11**2 / 2)
     right = (-np.log(alpha) / n -min(-x) - 1 / 2) / (65**2 / 2)
     return left, \
             right
